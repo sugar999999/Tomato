@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="em">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Tomato Run</title>
+
+</head>
+<body onload="drawApp();" bgcolor="#333333">
+  
+<div style="position : relative; width:320px; height: 370px; top:0px; left: 50%; margin-left: -160px; bottom: 0px;">
+
+		<canvas id="information" width="320" height="50" style="position: absolute; top: 0px; left: 0px;"></canvas>
+		<canvas id="canvas" width="320" height="320" style="position: absolute; top:50px; left:0px;">Your browser doesn't support HTML5 Canvas.</canvas>
+		<div style="position: absolute; top: 4px; left: 4px; color:white; font-family:AvenirNext-Bold;" id="floor">
+		</div>
+		<div style="position: absolute; top:25px; left: 4px; color:white; font-family:AvenirNext-Bold;" id="levelD"></div>
+		<div style="position: absolute; top: 2px; left: 190px; font-size: xx-small; color:white; font-family:AvenirNext-Bold;">
+			Stock : <canvas id="wallIcon" width="84" height="32"></canvas> <div id="stock" style="position: absolute; top: 22px; left: 67px;"></div><div id="burnStock" style="position: absolute; top: 22px; left: 116px;"></div>
+		</div>
+		<div style="position: absolute; top: 32px; right: 1px;"><font size="1" color="white" face="AvenirNext-Bold">Next wall:
+			<canvas id="gaugeA" width="100" height="10"></canvas>
+		</font></div>
+
+</div>
+
+<div align="center" style="position: relative; font-size: small; color:white;">
+<p>	<input type="button" id="start" value="Game Start"></p>
+	FAST FORWARD : <input type="range" id="speed" min="0" max="33" value="0" step=".5">
+<br><br>
+	<h1>Tomato Run</h1>
+	LEVEL: <select id="level">
+	<option value = "EASY">EASY</option>
+	<option value = "NORMAL">NORMAL</option>
+	<option value = "HARD">HARD</option>
+	</select>
+</div>
+<script type="text/javascript" src="scriptjs"></script>
+</body>
+</html>
