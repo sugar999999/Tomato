@@ -1,6 +1,9 @@
 # Tomato Run  
 (c)Sugar999999  
   
+制作期間：1ヶ月 (Nov. 2015 - Dec. 2015)  
+開発環境：HTML5 Canvas/JavaScript  
+
 オライリージャパンの「HTML５ Canvas」4章の内容を応用して  
 簡単なゲームを作りました。  
 
