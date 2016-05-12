@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Tomato Run  
+(c)Sugar999999  
+  
 オライリージャパンの「HTML５ Canvas」4章の内容を応用して  
 簡単なゲームを作りました。  
 
@@ -24,6 +26,3 @@
 ------------------------------------------------  
 
 参考文献：Steve Fulton, Jeff Fulton著「HTML5 Canvas」（オライリージャパン）
-=======
-# Tomato
->>>>>>> a603ff2b8a7d73b08a1c948038fc01ecf15abeb1
